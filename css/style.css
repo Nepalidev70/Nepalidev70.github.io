@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+
+
+    background: linear-gradient(123deg, #16222A, #3A6073);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: rgb(67, 155, 228);
+    Font-Family: 'Cabin',
+        Sans-Serif;
+    Font-Size: 17px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    Font-Family: 'Roboto Condensed',
+        Sans-Serif;
+    color: rgb(228, 235, 236);
+
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+
+}
+
+.navbar-nav {
+    margin-left: auto;
+
+}
+
+a.nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    Font-Family: 'Roboto Condensed',
+        Sans-Serif;
+    color: rgb(228, 235, 236);
+    ;
+
+}
+
+a.nav-link:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
+a.active {
+    background-color: rgb(62, 192, 192);
+    color: rgb(253, 255, 255);
+    font-size: 23px;
+    border-radius: 4px;
+}
+
+.main {
+    padding: 50px 0;
+}
+
+.hero {
+    padding: 60px 0;
+    height: 350px;
+
+}
+
+
+.mypic {
+    width: 120px;
+    height: 120px;
+}
+
+
+
+footer p {
+    font-size: 1.3rem;
+}
+
+.icon {
+    color: #fcf9f9;
+}
+
+.content {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+
+
+/* WorkPage */
+
+#workConent {
+    display: inline-flex;
+    flex-grow: row;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.progress {
+    margin-bottom: 20px;
+
+
+
+
+}
+
+.bg-item2 {
+    background-color: #3A6073;
+}
+
+/* SkillPage */
+
+div.progress-bar .progress-bar-stripped.react {
+    background-color: #16222A;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 991px) {
+
+    a.nav-link:hover,
+    a.nav-link:active {
+        color: aquamarine;
+        cursor: pointer;
+        border: none;
+    }
+
+    button.navbar-toggler {
+        background-color: #0e2e38;
+
+    }
+
+    button.navbar-toggler:focus {
+        outline: none;
+    }
+
+    button span.navbar-toggler-icon.text {
+        color: #fff;
+    }
+
+}
